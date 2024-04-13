@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #f5f5f5;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.intro-section, .dashboard-section, .prediction-section {
+    padding: 50px;
+    text-align: center;
+}
+
+ .prediction-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+.tableauPlaceholder {
+    width: 100%; /* Make it responsive */
+    max-width: 2000px; /* Set a max-width if necessary */
+    margin: auto; /* Center it if less than max-width */
+}
+
+.prediction-form form {
+    margin-bottom: 20px;
+}
+
+.prediction-form input[type="text"],
+.prediction-form input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.prediction-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prediction-form button:hover {
+    background-color: #45a049;
+}
+
+#prediction-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
